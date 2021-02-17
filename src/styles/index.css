@@ -278,6 +278,10 @@ Link, li {
   text-transform: uppercase;
   color: #FFFFFF;
   border: 0;
+  cursor: pointer;
+}
+.left-side-btn:focus {
+  outline: none;
 }
 
 .image-slider {
