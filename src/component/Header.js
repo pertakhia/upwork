@@ -54,7 +54,11 @@ const Header = () => {
             </article>
           <nav className='container'>
             <div className="logocursor">
-               <img src={logo} alt="logo"></img>
+
+             <Link to="/home">
+            <img src={logo} alt="logo"></img>
+              </Link>  
+              
             </div>
             <button  className={`${ !isSidebarOpen ? 'btn-active-no' : 'btn-active'}`}    onClick={closeSidebar}>
           <FaTimes className='fatims' />

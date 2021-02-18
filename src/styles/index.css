@@ -16,12 +16,15 @@ body {
 	margin: 0 auto;
   max-width: 100%;
 }
+header {
+  background-color: #FBFBFB;
+}
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 87px;
-  background-color: #FBFBFB;
+ 
 }
 
 .navigation {
@@ -34,17 +37,21 @@ nav {
 .logocursor {
   cursor: pointer;
 }
+.logocursor img {
+  width: 150px;
+}
 
 Link, li {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
-  letter-spacing: -0.04em;
+  letter-spacing: .06rem;
   text-transform: uppercase;
-  color: #A4A2A2;
-  margin-right: 50px;
+  /* color: #A4A2A2; */
+  color: #26262c;
+  margin-right: 48px;
   cursor: pointer;
 }
 
@@ -57,7 +64,7 @@ Link, li {
   height: 32px;
   background: #D6D6D6;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +95,7 @@ Link, li {
   height: 30px;
   width: 1px;
   background: #C4C4C4;
-  margin-right: 20px;
+  margin-right: 18px;
 }
 
 /* sidbar css */
@@ -165,6 +172,16 @@ Link, li {
   height: 25px;
   color: #A4A2A2;
 }
+
+@media only screen and (max-width: 1125px) {
+  
+  Link, li {
+   
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  
+ }
 
 /* responsive 1080px */
 @media only screen and (max-width: 1080px) {
@@ -245,7 +262,7 @@ Link, li {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 42px;
     line-height: 59px;
     text-align: center;
     color: #000000;
@@ -254,12 +271,12 @@ Link, li {
 }
 
 .left-side-paragrap {
-  margin: 15px 0 35px 0;
+  margin: 15px 0 30px 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 24px;
 }
 
@@ -848,12 +865,16 @@ z-index: 1;
   max-width: 100%;
  }
  .image-back {
-   bottom: -210px;
+   bottom: -216px;
  }
  .join-paragrap {
    margin-left: 0px;
    text-align: center;
  }
+ .logocursor img {
+  width: 120px;
+  margin-left: 8px;
+}
  
 }
 
