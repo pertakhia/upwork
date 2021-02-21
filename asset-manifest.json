@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/upwork/static/css/main.d688128d.chunk.css",
-    "main.js": "/upwork/static/js/main.f690899f.chunk.js",
-    "main.js.map": "/upwork/static/js/main.f690899f.chunk.js.map",
+    "main.css": "/upwork/static/css/main.56ad4e84.chunk.css",
+    "main.js": "/upwork/static/js/main.02a6e4c9.chunk.js",
+    "main.js.map": "/upwork/static/js/main.02a6e4c9.chunk.js.map",
     "runtime-main.js": "/upwork/static/js/runtime-main.cb0f271c.js",
     "runtime-main.js.map": "/upwork/static/js/runtime-main.cb0f271c.js.map",
     "static/js/2.14d7e1cf.chunk.js": "/upwork/static/js/2.14d7e1cf.chunk.js",
@@ -10,14 +10,16 @@
     "static/js/3.3d031ddf.chunk.js": "/upwork/static/js/3.3d031ddf.chunk.js",
     "static/js/3.3d031ddf.chunk.js.map": "/upwork/static/js/3.3d031ddf.chunk.js.map",
     "index.html": "/upwork/index.html",
-    "static/css/main.d688128d.chunk.css.map": "/upwork/static/css/main.d688128d.chunk.css.map",
+    "static/css/main.56ad4e84.chunk.css.map": "/upwork/static/css/main.56ad4e84.chunk.css.map",
     "static/js/2.14d7e1cf.chunk.js.LICENSE.txt": "/upwork/static/js/2.14d7e1cf.chunk.js.LICENSE.txt",
     "static/media/facebook.12a7a6e1.svg": "/upwork/static/media/facebook.12a7a6e1.svg",
     "static/media/fb.8e312488.svg": "/upwork/static/media/fb.8e312488.svg",
     "static/media/google.082c74ab.svg": "/upwork/static/media/google.082c74ab.svg",
     "static/media/instagram.9b65069d.svg": "/upwork/static/media/instagram.9b65069d.svg",
     "static/media/litle-search.ca3615ff.svg": "/upwork/static/media/litle-search.ca3615ff.svg",
+    "static/media/minus.9ebee46c.svg": "/upwork/static/media/minus.9ebee46c.svg",
     "static/media/moun.2ab1a35e.svg": "/upwork/static/media/moun.2ab1a35e.svg",
+    "static/media/plus.16e5dd41.svg": "/upwork/static/media/plus.16e5dd41.svg",
     "static/media/printest.c959df5a.svg": "/upwork/static/media/printest.c959df5a.svg",
     "static/media/redlogo.aa04337b.svg": "/upwork/static/media/redlogo.aa04337b.svg",
     "static/media/search-1.1cf74c90.svg": "/upwork/static/media/search-1.1cf74c90.svg",
@@ -28,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.cb0f271c.js",
     "static/js/2.14d7e1cf.chunk.js",
-    "static/css/main.d688128d.chunk.css",
-    "static/js/main.f690899f.chunk.js"
+    "static/css/main.56ad4e84.chunk.css",
+    "static/js/main.02a6e4c9.chunk.js"
   ]
 }
