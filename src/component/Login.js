@@ -149,8 +149,8 @@ const Login = () => {
                                       <label htmlFor="text"></label>
                                       <input  type='text' name='text' autoComplete="off" placeholder='Country Currently In'></input>
                                      
-                                      <label htmlFor="text"></label>
-                                      <input className='margin-top' type='text' name='text' autoComplete="off" placeholder='Interests'></input>
+                                      <label htmlFor="text1"></label>
+                                      <input className='margin-top' type='text' name='text1' autoComplete="off" placeholder='Interests'></input>
                                       </div>
                                       <div className='join-info-textarea'>
                                           <textarea placeholder='Bio' autoComplete="off" >
@@ -164,9 +164,9 @@ const Login = () => {
                          </div>
                      </div>
                  </article>
-         <div className="image-back"  >
-             <img  className='image-fixed-but' src={mount} alt='mount'></img>
-        </div>
+             <div className="image-back1"  >
+                  <img  className='image-fixed-but' src={mount} alt='mount'></img>
+             </div>
         </div>
         </div>
         
