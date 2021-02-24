@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/upwork/static/css/main.ccf2631c.chunk.css",
+    "main.css": "/upwork/static/css/main.e2eb289a.chunk.css",
     "main.js": "/upwork/static/js/main.f2ac98fc.chunk.js",
     "main.js.map": "/upwork/static/js/main.f2ac98fc.chunk.js.map",
     "runtime-main.js": "/upwork/static/js/runtime-main.6415d3ad.js",
@@ -10,7 +10,7 @@
     "static/js/3.74d76414.chunk.js": "/upwork/static/js/3.74d76414.chunk.js",
     "static/js/3.74d76414.chunk.js.map": "/upwork/static/js/3.74d76414.chunk.js.map",
     "index.html": "/upwork/index.html",
-    "static/css/main.ccf2631c.chunk.css.map": "/upwork/static/css/main.ccf2631c.chunk.css.map",
+    "static/css/main.e2eb289a.chunk.css.map": "/upwork/static/css/main.e2eb289a.chunk.css.map",
     "static/js/2.4bc657c1.chunk.js.LICENSE.txt": "/upwork/static/js/2.4bc657c1.chunk.js.LICENSE.txt",
     "static/media/Vector.6984e31a.svg": "/upwork/static/media/Vector.6984e31a.svg",
     "static/media/Vector1.905f8fb3.svg": "/upwork/static/media/Vector1.905f8fb3.svg",
@@ -57,7 +57,7 @@
   "entrypoints": [
     "static/js/runtime-main.6415d3ad.js",
     "static/js/2.4bc657c1.chunk.js",
-    "static/css/main.ccf2631c.chunk.css",
+    "static/css/main.e2eb289a.chunk.css",
     "static/js/main.f2ac98fc.chunk.js"
   ]
 }
