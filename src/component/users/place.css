@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.place-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #183445;
+}
+.map-img-cont {
+    display: flex;
+    justify-content: center;
+}
+.map-img {
+    position: relative;
+    width: 740px;
+    max-width: 100%;
+    padding: 40px 0 120px 0;
+}
+
+.map {
+    width: 740px;
+    max-width: 100%;  
+}
+
+.path {
+    position: absolute;
+    left: 239px;
+    width: 50px;
+}
+
+.path1 {
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    width: 50px;
+}
+
+.path2 {
+    position: absolute;
+    left: 403px;
+    top: 163px;
+    width: 50px;
+}
+
+.path3 {
+    position: absolute;
+    left: 364px;
+    top: 230px;
+    width: 50px;
+}
+.path4 {
+    position: absolute;
+    width: 50px;
+    right: 60px;
+    top: 80px;
+}
+.path5 {
+    position: absolute;
+    width: 50px;
+    right: 200px;
+    top: 194px;
+}
+
+.path6 {
+    position: absolute;
+    width: 50px;
+    bottom: 170px;
+    right: 95px;
+}
+
+@media only screen and (max-width: 805px) {
+    .map-img {
+        width: 600px;
+    }
+    .path {
+        left: 191px;
+    }
+    .path1 {
+        left: 85px;
+        top: 125px;
+    }
+    .path2 {
+        left: 403px;
+        top: 149px;
+        width: 50px;
+    }
+    .path3 {
+        left: 303px;
+        top: 104px;
+        width: 50px;
+    }
+    .path5 {
+        right: 253px;
+        top: 194px;
+    }
+    .path6 {
+        bottom: 155px;
+        right: 90px;
+    }
+    
+}
+@media only screen and (max-width: 620px) {
+    .map-img {
+        width:500px;
+        padding: 31px 0 70px 0;
+    }
+    .place-text {
+        font-size: 20px;
+    }
+    .path {
+        left: 151px;
+    }
+    .path1 {
+        left: 64px;
+        top: 110px;
+    }
+    .path2 {
+        left: 403px;
+        top: 196px;
+        width: 50px;
+    }
+    .path5 {
+        right: 253px;
+        top: 134px;
+    }
+    .path6 {
+        bottom: 180px;
+        right: 90px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .map-img {
+        width:350px;
+        padding: 31px 0 70px 0;
+    }
+    .path {
+        left: 109px;
+        width: 30px;
+    }
+    .path1 {
+        left: 64px;
+        top: 82px;
+        width: 30px;
+    }
+    .path2 {
+        left: 274px;
+        top: 147px;
+        width: 30px;
+    }
+    .path3 {
+        left: 160px;
+        top: 104px;
+        width: 30px;
+    }
+    .path4 {
+       
+        width: 30px;
+        right: 60px;
+        top: 80px;
+    }
+    .path5 {
+        right: 221px;
+        top: 134px;
+        width: 30px;
+    }
+    .path6 {
+        bottom: 180px;
+        right: 125px;
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 370px)  {
+    .map-img {
+        width: 310px;
+        padding: 22px 0 62px 0;
+    }
+    .path {
+        left: 101px;
+        width: 25px;
+    }
+    .path1 {
+        left: 42px;
+        top: 72px;
+        width: 25px;
+    }
+    .path2 {
+        left: 255px;
+        top: 138px;
+        width: 25px;
+    }
+    .path3 {
+        left: 156px;
+        top: 104px;
+        width: 25px;
+    }
+    .path4 {
+        width: 26px;
+        right: 60px;
+        top: 80px;
+    }
+    .path5 {
+        right: 203px;
+        top: 134px;
+        width: 25px;
+    }
+    .path6 {
+        bottom: 164px;
+        right: 125px;
+        width: 25px;
+    }
+}
+

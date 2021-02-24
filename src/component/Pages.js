@@ -58,7 +58,7 @@ const Pages = () => {
                           <button className='btn-toggle1'>  <img src={plus} alt='plus'></img>   </button>
                   </aside>
               </article>
-              <article className='trip-info'>
+                <article className='trip-info'>
                   <aside className='basic-info'>
                           <h2>Review & Submit</h2>
                           <button className='btn-toggle1'>  <img src={plus} alt='plus'></img>   </button>

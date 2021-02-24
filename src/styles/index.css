@@ -12,7 +12,7 @@ body {
 }
 /* navbar css */
 .container {
-	width: 95vw;
+	width: 1300px;
 	margin: 0 auto;
   max-width: 100%;
 }
@@ -41,7 +41,7 @@ nav {
   width: 150px;
 }
 
-Link, li {
+.home {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -54,6 +54,7 @@ Link, li {
   margin-right: 48px;
   cursor: pointer;
 }
+
 
 .margin {
   margin: 0;
@@ -177,8 +178,13 @@ Link, li {
   
   Link, li {
    
-    margin-right: 40px;
+    margin-right: 30px;
     cursor: pointer;
+  }
+  .container {
+    width: 95vw;
+    margin: 0 auto;
+    max-width: 100%;
   }
   
  }
@@ -312,13 +318,21 @@ Link, li {
  /* login page css */
 
  .section-box{
+
    position: relative;
    display: flex;
    width: 100%;
+   
    margin: 0 auto;
    box-sizing: border-box;
-   
-   
+     
+ }
+
+ @media only screen and (min-width: 1376px) {
+  .section-box {
+    width: 1300px;
+    margin: 0 auto;
+  }
  }
  .login {
    display: flex;
@@ -917,6 +931,7 @@ outline: none;
   justify-content: space-between;
   align-items: center;
   padding: 0 25px;
+  z-index: 50;
 }
 
 .form-center {
@@ -973,6 +988,7 @@ outline: none;
   color: #78818B;
   padding: 0 20px;
   margin-bottom: 10px;
+  z-index: 50;
   
 }
 
@@ -1019,11 +1035,13 @@ outline: none;
   font-size: 14px;
   line-height: 17px;
   color: #78818B;
+  z-index: 50;
 }
 .textarea-info:focus {
   outline: none;
 }
 .btn-submit-center {
+  z-index: 50;
   display: flex;
   justify-content: center;
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './/component/Header'
 import Home from './component/Home'
 import Pages from './component/Pages'
+import Users from './component/Users'
 import Travel from './component/Travel'
 import Blog from './component/Blog'
 import Elements from './component/Elements'
@@ -14,8 +15,9 @@ const App = () => {
           <Router>
             <Header/>
            <Switch>
-             <Route path="/" component={Login}  exact/>
+             <Route path="/login" component={Login}  />
              <Route path="/home" component={Home}   />
+             <Route path="/" component={Users}  exact  />
              <Route path="/pages" component={Pages} />
              <Route path="/travel" component={Travel} />
              <Route path="/blog" component={Blog} />

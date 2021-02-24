@@ -17,23 +17,26 @@ const Header = () => {
         <header >
             <article className={`${isSidebarOpen ?  'show-sidebar article-page'  : 'article-page'}`}  >
             <ul className='sidbaropen'>
-              <Link to="/home">
+              <Link to="/home" className='home'>
                    <li >Home</li>
               </Link>  
-              <Link to="/pages">
+              <Link to="/pages" className='home'>
                    <li >Pages</li>
               </Link>
-              <Link to="/travel">
+              <Link to="/travel" className='home'>
                    <li >Travel</li>
               </Link>
-              <Link to="/blog">
+              <Link to="/blog" className='home'>
                    <li >Blog</li>
               </Link>
-              <Link to="/elements">
+              <Link to="/elements" className='home'>
                    <li >Elements</li>
               </Link>
-              <Link to="/shop" >
-                   <li className='margin' >Shop</li>
+              <Link to="/shop"  className='home'>
+                   <li  >Shop</li>
+              </Link>
+              <Link to="/login"className='home' >
+                   <li className='margin' >Login</li>
               </Link>
             </ul>
             <ul className='sidbarlogo'>
@@ -67,23 +70,26 @@ const Header = () => {
                  <FaBars className='fabar'/>
             </button>
             <ul className='navigation  hiden'>
-              <Link to="/home">
+              <Link to="/home" className='home'>
                    <li >Home</li>
               </Link>  
-              <Link to="/pages">
+              <Link to="/pages" className='home'>
                    <li >Pages</li>
               </Link>
-              <Link to="/travel">
+              <Link to="/travel" className='home'>
                    <li >Travel</li>
               </Link>
-              <Link to="/blog">
+              <Link to="/blog" className='home'>
                    <li >Blog</li>
               </Link>
-              <Link to="/elements">
+              <Link to="/elements" className='home'>
                    <li >Elements</li>
               </Link>
-              <Link to="/shop" >
-                   <li className='margin' >Shop</li>
+              <Link to="/shop"  className='home'>
+                   <li  >Shop</li>
+              </Link>
+              <Link to="/login"  className='home'>
+                   <li className='margin' >Login</li>
               </Link>
             </ul>
             <ul className='logo hiden'>
