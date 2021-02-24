@@ -64,35 +64,35 @@
 }
 
 .feed-box {
-    padding: 30px;
+    padding: 20px;
     margin-bottom: 45px;
-    width: 490px;
-    background: rgba(87, 194, 244, 0.1);
+    width: 450px;
+    background: rgba(87,194,244,.1);
     border-radius: 7px;
-    
 }
 .fire {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
     background: #3EDF82;
     border-radius: 50%;
     margin-right: 28px;
 }
 .fire img {
-    width: 35px;
+    width: 30px;
 }
 
 .feed-person h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 22px;
     line-height: 36px; 
     color: #183445; 
 }
+
 
 .feed-person p {
     font-family: 'Roboto', sans-serif;
@@ -102,6 +102,7 @@
     line-height: 20px;
     color: #183445;
 }
+
 
 .feed-box1 {
     display: flex;
@@ -118,17 +119,17 @@
     justify-content: flex-end;
    
 }
+
 .feed-paragrap p {
-    width: 326px;
-    font-family: 'Roboto', sans-serif;
+    width: 311px;
+    font-family: "Roboto",sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
     text-align: justify;
     color: #183445;
     margin-top: 10px;
-
 }
 
 .feed-time {

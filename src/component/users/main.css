@@ -89,8 +89,8 @@
 .middle-box {
     display: flex;
     justify-content: space-between;
-    padding-right: 120px;
-    padding-left: 120px;
+    padding-right: 110px;
+    padding-left: 110px;
 }
 
 .follow {
@@ -168,12 +168,12 @@
 }
 
 .right-third {
-    margin-top: 110px;
+    margin-top: 120px;
 }
 
 .profil-rank {
     padding: 14px 18px;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 230px;
     
     background: #FFFFFF;
