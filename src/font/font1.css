@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Futura Bold font';
+  src: url('../font/Futura\ Bold\ font.eot');
+  src: url('../font/Futura\ Bold\ font.woff2') format('embedded-opentype'),
+       url('../font/Futura\ Bold\ font.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaBT-BoldCondensed';
+  src: url('../font/FuturaBT-BoldCondensed.svg') format('svg'),
+       url('../font/FuturaBT-BoldCondensed.ttf') format('truetype'),
+       url('../font/FuturaBT-BoldCondensed.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

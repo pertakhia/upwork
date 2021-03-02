@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'FutuBd';
+  src: url('../font/FutuBd.eot');
+  src: url('../font/FutuBd.eot') format('embedded-opentype'),
+       url('../font/FutuBd.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaBT-Bold';
+  src: url('../font/FuturaBT-Bold.svg') format('svg'),
+       url('../font/FuturaBT-Bold.ttf') format('truetype'),
+       url('../font/FuturaBT-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

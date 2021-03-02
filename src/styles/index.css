@@ -176,7 +176,7 @@ nav {
 
 @media only screen and (max-width: 1125px) {
   
-  Link, li {
+  .sidbaropen > li {
    
     margin-right: 30px;
     cursor: pointer;
@@ -185,6 +185,9 @@ nav {
     width: 95vw;
     margin: 0 auto;
     max-width: 100%;
+  }
+  .home {
+    margin-right: 35px;
   }
   
  }
@@ -1133,4 +1136,13 @@ outline: none;
     
     height: 110px;
 }
+}
+
+
+
+
+/* hidden header */
+
+.hidde-travel {
+  display: none;
 }

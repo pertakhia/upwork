@@ -4,6 +4,11 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [hiddenHeader, setHiddenHeader] =useState(false);
+  const [showImg, setShowImg] = useState(false);
+
+  const [location, setLocation] = useState({})
+  const [yes, setYes] = useState([] )
 
   const openSidebar = () => {
     setIsSidebarOpen(true);
@@ -12,7 +17,25 @@ const AppProvider = ({ children }) => {
     setIsSidebarOpen(false);
   };
 
-  
+  const openTravel = () => {
+    setHiddenHeader(true);
+  }
+
+  const closeTravel = () => {
+    setHiddenHeader(false);
+  }
+
+  const openImg = (wow, coordinates) => {
+    setLocation(coordinates)
+    setYes(wow)
+    setShowImg(true)
+  }
+
+  const closeImg =()=> {
+    setShowImg(false)
+  }
+
+
 
   return (
     <AppContext.Provider
@@ -21,6 +44,16 @@ const AppProvider = ({ children }) => {
         setIsSidebarOpen,
         openSidebar,
         closeSidebar,
+        hiddenHeader,
+        setHiddenHeader,
+        openTravel,
+        closeTravel,
+        showImg,
+        setShowImg,
+        openImg,
+        closeImg,
+        location, 
+        yes
       }}
     >
       {children}

@@ -12,9 +12,16 @@ import { useGlobalContext } from './context';
 
 
 const Header = () => {
-    const { isSidebarOpen, openSidebar,  closeSidebar} = useGlobalContext();
+    const { 
+         isSidebarOpen, 
+         openSidebar,  
+         closeSidebar,
+         hiddenHeader,
+         openTravel,
+         closeTravel
+     } = useGlobalContext();
     return (
-        <header >
+        <header className={`${hiddenHeader ? 'hidde-travel' : ''}`} >
             <article className={`${isSidebarOpen ?  'show-sidebar article-page'  : 'article-page'}`}  >
             <ul className='sidbaropen'>
               <Link to="/home" className='home'>
@@ -23,9 +30,9 @@ const Header = () => {
               <Link to="/pages" className='home'>
                    <li >Pages</li>
               </Link>
-              <Link to="/travel" className='home'>
-                   <li >Travel</li>
-              </Link>
+            <Link to="/travel" className='home' >
+            <li  onClick={openTravel}>Travel</li>
+            </Link>
               <Link to="/blog" className='home'>
                    <li >Blog</li>
               </Link>
@@ -77,7 +84,7 @@ const Header = () => {
                    <li >Pages</li>
               </Link>
               <Link to="/travel" className='home'>
-                   <li >Travel</li>
+                   <li  onClick={openTravel}>Travel</li>
               </Link>
               <Link to="/blog" className='home'>
                    <li >Blog</li>
