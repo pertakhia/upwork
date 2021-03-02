@@ -1,6 +1,6 @@
 
 .left-aside-travel {
-    width: 214px;
+    width: 190px;
     background: #F5F5F5;
     padding-top: 35px;
 
@@ -168,7 +168,7 @@
 
 .img-galery-top {
     display: flex;
-    padding: 35px  27px  35px 35px;
+    padding: 35px  17px  35px 35px;
     justify-content: space-between;
 }
 
@@ -228,7 +228,7 @@
 .text-galery {
     display: flex;
     justify-content: space-between;
-    padding: 40px 97px 40px 35px;
+    padding: 40px 90px 40px 35px;
 }
 
 .text-galery-h1 {
@@ -260,29 +260,30 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding:0 97px 0 35px;
+    padding:0 90px 0 35px;
 }
 
 .image {
     position: relative;
-    width: 198px;
-    height: 270px;  
-    margin-right: 20px;
-    margin-bottom: 70px;
+    margin-right: 70px;
+    margin-right: 87px;
+    width: 100px;
+    height: 130px;
+    margin-bottom: 80px;
    
 }
 
 .shadow {
     position: absolute;
-    width: 116px;
-    height: 55px;
+    width: 63px;
+    height: 28px;
     background: inherit;
     left: 50%;
     transform: translateX(-50%);
     bottom: 2px;
     border-radius: 50%;
     z-index: 1;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.75);
 }
 .image > img {
     position: relative;
@@ -290,18 +291,18 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 12px;
     
 }
 
-.image:nth-child(4n) {
+.image:nth-child(5n) {
     margin-right: 0;
 }
 
 .travel-footer-btn {
     display: flex;
     justify-content: center;
-    padding:0 97px 140px 35px;
+    padding:0 90px 130px 35px;
 }
 
 .travel-footer-btn > button {
@@ -317,7 +318,6 @@
     font-style: normal;
     font-weight: bold;
     padding-left: 20px;
-    margin-top: -25px;
     cursor: pointer;
 }
 .plus-img-footer {
@@ -363,20 +363,26 @@
   }
 
 
-@media only screen and (max-width: 1172px) {
-    .image:nth-child(4n) {
-        margin-right: 20px;
+@media only screen and (max-width: 1163px) {
+    .image:nth-child(5n) {
+        margin-right: 87px;
     }
-    .image:nth-child(3n) {
+    .image:nth-child(4n) {
+        margin-right: 0;
+    }
+    .image:nth-child(15) {
         margin-right: 0;
     }
 }
 
-@media only screen and (max-width: 982px) {
-    .image:nth-child(3n) {
-        margin-right: 20px;
+@media only screen and (max-width: 975px) {
+    .image:nth-child(4n) {
+        margin-right: 87px;
     }
-    .image:nth-child(2n) {
+    .image:nth-child(5n) {
+        margin-right: 87px;
+    }
+    .image:nth-child(3n) {
         margin-right: 0;
     }
 }
@@ -404,20 +410,33 @@
     }
 }
 
-@media only screen and (max-width: 703px) {
-    .img-flex {
-        justify-content: center;
+@media only screen and (max-width: 750px) {
+    .image:nth-child(n) {
+         margin-right: 200px;
     }
     .image:nth-child(2n) {
-        margin-right: 20px;
-    }
-}
-
-@media only screen and (max-width: 682px) {
-    .image:nth-child(n) {
         margin-right: 0;
     }
 }
+
+@media only screen and (max-width: 733px) {
+    .image:nth-child(n) {
+         margin-right: 200px;
+    }
+    .image:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 676px) {
+    .image:nth-child(n) {
+        margin-right: 100px;
+   }
+   .image:nth-child(2n) {
+    margin-right: 0;
+}
+}
+
 
 @media only screen and (max-width: 628px) {
     .travel-flex {
@@ -430,11 +449,11 @@
     .right-article {
         width: 100%;
     }
-    .img-flex {
-        justify-content: space-between;
+    .image:nth-child(n) {
+        margin-right: 200px;
     }
     .image:nth-child(2n) {
-        margin-left: 20px;
+        margin-right: 0;
     }
 }
 
@@ -469,10 +488,7 @@
     .btn-create {
         margin-left: 0;
     }
-    .image:nth-child(n) {
-        margin-left: 0;
-        margin-right: 0;
-    }
+    
 }
 
 @media only screen and (max-width: 1300px) {

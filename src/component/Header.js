@@ -17,11 +17,9 @@ const Header = () => {
          openSidebar,  
          closeSidebar,
          hiddenHeader,
-         openTravel,
-         closeTravel
      } = useGlobalContext();
     return (
-        <header className={`${hiddenHeader ? 'hidde-travel' : ''}`} >
+        <header  >
             <article className={`${isSidebarOpen ?  'show-sidebar article-page'  : 'article-page'}`}  >
             <ul className='sidbaropen'>
               <Link to="/home" className='home'>
@@ -31,7 +29,7 @@ const Header = () => {
                    <li >Pages</li>
               </Link>
             <Link to="/travel" className='home' >
-            <li  onClick={openTravel}>Travel</li>
+            <li >Travel</li>
             </Link>
               <Link to="/blog" className='home'>
                    <li >Blog</li>
@@ -84,7 +82,7 @@ const Header = () => {
                    <li >Pages</li>
               </Link>
               <Link to="/travel" className='home'>
-                   <li  onClick={openTravel}>Travel</li>
+                   <li  >Travel</li>
               </Link>
               <Link to="/blog" className='home'>
                    <li >Blog</li>

@@ -37,7 +37,6 @@ const Travel = () => {
            const bottom = tempBtn.bottom - 350;
            const bottom1 = tempBtn.bottom - 600;
            const wow = e.target.src;
-           console.log(wow)
            openImg(wow,{center, bottom, leftimg, ifleft, ifbottom, bottom1});
     }
 
@@ -177,6 +176,18 @@ const Travel = () => {
                          <div className='image' onMouseEnter={displayImg} onMouseLeave={closeImg} >
                          <div className='shadow'></div>
                          <img  src={image3} alt='img'/>
+                         </div>
+                         <div className='image' onMouseOver={displayImg} onMouseLeave={closeImg}>
+                         <div className='shadow'></div>
+                         <img  src={image3} alt='img'/>
+                         </div>
+                         <div className='image'onMouseOver={displayImg} onMouseLeave={closeImg} >
+                         <div className='shadow'></div>
+                         <img  src={image} alt='img'/>
+                         </div>
+                         <div className='image'onMouseEnter={displayImg} onMouseLeave={closeImg} >
+                         <div className='shadow'></div>
+                         <img  src={image1} alt='img'/>
                          </div>
                     </div>
                     <div className='travel-footer-btn'>
